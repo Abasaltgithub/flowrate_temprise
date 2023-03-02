@@ -1,4 +1,4 @@
-# FlowRate_TempRise
+# FlowRateTempRise
 This code contains two sections that perform calculations related to fluid dynamics and electrical resistance.
 
 Fluid dynamics: The first section calculates the pressure drop in a pipe as a function of flow rate using the Darcy-Weisbach equation and the Colebrook equation. The parameters used in the calculation are the pipe diameter, length, absolute roughness, and density of water. The results are plotted as a graph showing the pressure drop versus the flow rate.
