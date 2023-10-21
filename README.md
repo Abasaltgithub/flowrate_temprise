@@ -15,16 +15,10 @@ The simulations in this repository explore the behavior of fluid flow and heat t
 Before diving into the code and simulations, it's important to be aware of the following key references and concepts:
 
 - [Darcy–Weisbach Equation](https://en.wikipedia.org/wiki/Darcy%E2%80%93Weisbach_equation): This equation is fundamental for calculating pressure drop in a pipe.
-
 - [Colebrook Equation](https://en.wikipedia.org/wiki/Darcy%E2%80%93Weisbach_equation#Colebrook_equation): The Colebrook equation is used to solve for the friction factor in the Darcy–Weisbach equation. It often requires iterative methods like the Newton-Raphson method.
-
 - [Moody Diagram](https://en.wikipedia.org/wiki/Moody_chart): The Moody diagram is a valuable tool for understanding the behavior of flow in pipes with different properties.
-
 - [Reference Material](https://www.ihsenergy.ca/support/documentation_ca/Harmony/content/html_files/reference_material/calculations_and_correlations/pressure_loss_calculations.htm): This reference material provides additional insight into pressure loss calculations, which can be essential for your simulations.
-
-
 - [Pressure Drop Online Calculator](http://www.pressure-drop.com/Online-Calculator/): You can double-check your plot using this online calculator for pressure drop.
-
 - [Pressure Drop](http://www.pressure-drop.online/): Another online resource for pressure drop calculations.
 
 ## Usage
