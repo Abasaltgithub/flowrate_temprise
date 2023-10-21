@@ -1,4 +1,4 @@
-# Flow Rate, Pressure Drop, and Temperature Rise Simulation
+# Flow Rate, Pressure Drop, and Temperature Rise
 
 This repository contains code for simulating and visualizing the relationship between flow rate, pressure drop, and temperature rise in a straight pipe with a circular cross-section. The simulations are based on fundamental principles, including the Darcy–Weisbach equation, Colebrook equation, and Moody diagram.
 
