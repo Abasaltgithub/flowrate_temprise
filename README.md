@@ -34,4 +34,5 @@ The code in this repository can be used to perform simulations related to flow r
 
 4. Analyze the generated plots and data to gain insights into the relationship between the variables.
 
-<img src="FlowRate_PressureDrop.png" width="300">
+<img src="FlowRate_PressureDrop.png" width="600">
+<img src="Temp_rise.png" width="600">
