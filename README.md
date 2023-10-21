@@ -1,10 +1,47 @@
-# FlowRateTempRise
-This code contains two sections that perform calculations related to fluid dynamics and electrical resistance.
+# Flow Rate, Pressure Drop, and Temperature Rise Simulation
 
-Fluid dynamics: The first section calculates the pressure drop in a pipe as a function of flow rate using the Darcy-Weisbach equation and the Colebrook equation. The parameters used in the calculation are the pipe diameter, length, absolute roughness, and density of water. The results are plotted as a graph showing the pressure drop versus the flow rate.
+This repository contains code for simulating and visualizing the relationship between flow rate, pressure drop, and temperature rise in a straight pipe with a circular cross-section. The simulations are based on fundamental principles, including the Darcy–Weisbach equation, Colebrook equation, and Moody diagram.
 
-Electrical resistance: The second section calculates the temperature rise in a wire wound in a coil as a function of water flow rate. The parameters used in the calculation are the internal diameter of the coil, wire diameter, number of axial and radial turns, resistivity of the wire, and water flow rate. The results are plotted as a graph showing the temperature rise versus the water flow rate.
-At the end of the notebook, a table is printed showing the internal and outer diameters of the coil, the total wire length, the total resistance, and the total dissipated power.
+## Overview
 
-![Unknown-10](https://user-images.githubusercontent.com/83898640/222330835-633f2eff-8f7b-4897-92e3-01b599dc074a.png)
-![Unknown-11](https://user-images.githubusercontent.com/83898640/222330839-0f57c464-0ab7-4141-bc37-f9f89fabaabd.png)
+The simulations in this repository explore the behavior of fluid flow and heat transfer in a straight pipe. Specifically, two aspects are covered:
+
+1. Flow Rate and Pressure Drop: The simulation investigates how flow rate and pressure drop are related in a pipe. It utilizes principles from fluid dynamics, including the Darcy–Weisbach equation and the Colebrook equation.
+
+2. Flow Rate and Temperature Rise: The code analyzes how the flow rate affects the temperature rise in a current-carrying coil inside the pipe. This is particularly relevant for applications involving heat transfer.
+
+## Key References
+
+Before diving into the code and simulations, it's important to be aware of the following key references and concepts:
+
+- [Darcy–Weisbach Equation](https://en.wikipedia.org/wiki/Darcy%E2%80%93Weisbach_equation): This equation is fundamental for calculating pressure drop in a pipe.
+
+- [Colebrook Equation](https://en.wikipedia.org/wiki/Darcy%E2%80%93Weisbach_equation#Colebrook_equation): The Colebrook equation is used to solve for the friction factor in the Darcy–Weisbach equation. It often requires iterative methods like the Newton-Raphson method.
+
+- [Moody Diagram](https://en.wikipedia.org/wiki/Moody_chart): The Moody diagram is a valuable tool for understanding the behavior of flow in pipes with different properties.
+
+- [Reference Material](https://www.ihsenergy.ca/support/documentation_ca/Harmony/content/html_files/reference_material/calculations_and_correlations/pressure_loss_calculations.htm): This reference material provides additional insight into pressure loss calculations, which can be essential for your simulations.
+
+## Usage
+
+The code in this repository can be used to perform simulations related to flow rate, pressure drop, and temperature rise in a straight pipe. To get started, follow these steps:
+
+1. Review the key references mentioned above to gain a better understanding of the principles behind the simulations.
+
+2. Clone this repository to your local machine.
+
+3. Run the Python scripts for the specific simulation you're interested in (flow rate and pressure drop or flow rate and temperature rise).
+
+4. Analyze the generated plots and data to gain insights into the relationship between the variables.
+
+## Disclaimer
+
+The simulations in this repository are intended for educational and research purposes. They are specifically designed for straight pipes with a circular cross-section. Real-world applications may involve additional complexities and factors.
+
+## Acknowledgments
+
+This code is inspired by the work of various researchers in the field of fluid dynamics and heat transfer. It is also influenced by online tools and references.
+
+Feel free to explore the code and adapt it for your specific needs. If you have questions or encounter issues, please don't hesitate to reach out.
+
+Happy simulating!
