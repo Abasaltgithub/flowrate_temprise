@@ -22,6 +22,11 @@ Before diving into the code and simulations, it's important to be aware of the f
 
 - [Reference Material](https://www.ihsenergy.ca/support/documentation_ca/Harmony/content/html_files/reference_material/calculations_and_correlations/pressure_loss_calculations.htm): This reference material provides additional insight into pressure loss calculations, which can be essential for your simulations.
 
+
+- [Pressure Drop Online Calculator](http://www.pressure-drop.com/Online-Calculator/): You can double-check your plot using this online calculator for pressure drop.
+
+- [Pressure Drop](http://www.pressure-drop.online/): Another online resource for pressure drop calculations.
+
 ## Usage
 
 The code in this repository can be used to perform simulations related to flow rate, pressure drop, and temperature rise in a straight pipe. To get started, follow these steps:
