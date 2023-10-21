@@ -34,14 +34,5 @@ The code in this repository can be used to perform simulations related to flow r
 
 4. Analyze the generated plots and data to gain insights into the relationship between the variables.
 
-## Disclaimer
-
-The simulations in this repository are intended for educational and research purposes. They are specifically designed for straight pipes with a circular cross-section. Real-world applications may involve additional complexities and factors.
-
-## Acknowledgments
-
-This code is inspired by the work of various researchers in the field of fluid dynamics and heat transfer. It is also influenced by online tools and references.
-
-Feel free to explore the code and adapt it for your specific needs. If you have questions or encounter issues, please don't hesitate to reach out.
-
-Happy simulating!
+![FlowRate and Pressure Drop](FlowRate_PressureDrop.png)
+![FlowRate and Pressure Drop](Temp_rise.png)
